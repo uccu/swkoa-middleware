@@ -1,0 +1,26 @@
+{
+    "name": "uccu/swkoa-middleware",
+    "description": "middleware tool for swkoa",
+    "keywords": [
+        "swkoa",
+        "swoole",
+        "koa",
+        "middleware",
+        "pzcat"
+    ],
+    "homepage": "https://github.com/uccu/swkoa-middleware",
+    "license": "MIT",
+    "authors": [{
+        "name": "pzcat",
+        "email": "cat@4moe.com"
+    }],
+    "require": {
+        "php": ">=7.3.0",
+        "uccu/swkoa-plugin": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uccu\\SwKoaMiddleware\\": "lib"
+        }
+    }
+}
