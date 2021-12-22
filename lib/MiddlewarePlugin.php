@@ -1,6 +1,6 @@
 <?php
 
-namespace Uccu\SwKoa;
+namespace Uccu\SwKoaMiddleware;
 
 use Uccu\SwKoaPlugin\Plugin\HttpServerHandleBeforePlugin;
 
