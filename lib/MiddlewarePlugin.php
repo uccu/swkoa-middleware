@@ -2,15 +2,15 @@
 
 namespace Uccu\SwKoaMiddleware;
 
-use Uccu\SwKoaPlugin\HttpServerHandleBeforePlugin;
+use Uccu\SwKoaPlugin\THttpServerHandleBeforePlugin;
 
-class MiddlewarePlugin implements HttpServerHandleBeforePlugin
+class MiddlewarePlugin implements THttpServerHandleBeforePlugin
 {
 
     /**
      * @param \Uccu\SwKoa\Context $ctx
      */
-    public function httpServerHandleBefore($ctx)
+    public static function httpServerHandleBefore($ctx)
     {
         $middlewarePool = new MiddlewarePool;
 
