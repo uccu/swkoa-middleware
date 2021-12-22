@@ -2,7 +2,7 @@
 
 namespace Uccu\SwKoaMiddleware;
 
-use Uccu\SwKoaPlugin\Plugin\HttpServerHandleBeforePlugin;
+use Uccu\SwKoaPlugin\HttpServerHandleBeforePlugin;
 
 class MiddlewarePlugin implements HttpServerHandleBeforePlugin
 {
